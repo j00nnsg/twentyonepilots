@@ -1,0 +1,176 @@
+
+body {
+    margin: 0;
+
+    font-family: lato;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+/* Menú */
+header {
+    display: flex;
+    background-color: rgb(238, 53, 53);
+    height: 100px;
+    align-items: center;
+    text-decoration: double;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 25px;
+}
+
+.title {
+    padding-left: 25px;
+}
+
+/* Submenú */
+nav {
+    display: flex;
+    background-color: rgb(194, 45, 45);
+    height: 30px;
+    align-items: center;
+}
+
+.album {
+    color: black;
+    padding-left: 25px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.album:hover {
+    color: rgb(255, 230, 0);
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* Contexto */
+.contexto {
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+article {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.exp {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 25px;
+    font-size: larger;
+}
+
+.tylerjosh {
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+    height:55%;
+    display: block;
+}
+
+/* Trayectoria */
+aside {
+    width: 20%;
+
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    background-color: rgb(255, 224, 224);
+    
+    flex: 2;
+}
+
+.discografia {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.discexp {
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 15px;
+}
+
+li {
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.spoty {
+    background-color: #1ED760;
+    text-decoration: none;
+    color: black;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border-radius: 10px;
+}
+
+.spotyimg {
+    height: 30px;
+    margin-right: 10px;
+    padding-top: -10px;
+}
+
+.apple {
+    background-color: #FA2D48;
+    text-decoration: none;
+    color: white;
+}
+
+.appleimg {
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer{
+    margin-top: 0px;
+    background-color: rgb(61, 61, 61);
+    height: 100px;
+    text-align: center;
+}
+
+.sugerencias {
+    color: white;
+    padding-top: 65px;
+    margin-top: 0;
+}
