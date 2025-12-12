@@ -54,6 +54,8 @@ main {
     display: flex;
     margin-bottom: 0;
     width: 100%;
+    background-color: #e13d2e;
+    
 }
 
 /* Contexto */
@@ -67,6 +69,7 @@ article {
     flex: 5;
     flex-direction: column;
     min-width: 0;
+    color: white;
 }
 
 .exp {
@@ -80,7 +83,7 @@ article {
     margin-top: 15px;
     margin-right: 25px;
     margin-left: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 
     display: block;
 }
@@ -93,7 +96,8 @@ aside {
     margin-top: 0;
     margin-bottom: 0;
 
-    background-color: rgb(255, 224, 224);
+    background-color: rgb(46, 46, 46);
+    color: white;
     
     flex: 2;
 }
@@ -179,7 +183,7 @@ li {
 /* Footer */
 footer {
     margin-top: 0px;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(46, 46, 46);
     
     height: auto; 
     padding-top: 50px;
@@ -203,7 +207,7 @@ footer {
 
 form {
     margin-top: 0;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(46, 46, 46);
     color: white;
     text-align: start;
 }
@@ -224,7 +228,7 @@ input {
 }
 
 .botonform {
-    background-color: rgb(255, 224, 224);
+    background-color: #ee6253;
     color: black;
     text-align: center;
     padding-top: 10px;
@@ -248,7 +252,6 @@ input {
     margin-top: 40px;
     align-items: center;
     justify-content: center;
-
     margin-top: 0;
 }
 
@@ -257,7 +260,7 @@ input {
     height: auto;
     width: 450px;
     margin-top: 75px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .btitle{
@@ -328,4 +331,10 @@ th {
     color: #000000;
     background-color: #ee6253;
     text-align: center;
+}
+
+/* Video */
+iframe {
+    align-self: center;
+    margin-bottom: 50px;
 }
