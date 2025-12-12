@@ -301,3 +301,31 @@ p {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
+/* Tabla */
+table {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+
+th {
+	background: #f0e6cc;
+}
+
+.encabezado {
+    text-decoration: double;
+    color: #000000;
+    background-color: #ee6253;
+    text-align: center;
+}
