@@ -171,11 +171,11 @@ main {
 
 .album {
     display: flex;
-    margin-top: 40px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 0;
+    margin-left: 0;
 }
 
 .tcover {
@@ -218,4 +218,8 @@ li {
 
 .bt {
     color: #ebdf17;
+}
+
+.imgexp {
+    justify-content: center;
 }
