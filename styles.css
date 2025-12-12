@@ -1,4 +1,4 @@
-
+/* ------------------------------------------------------- PÁGINA PRINCIPAL ------------------------------------------------------- */
 body {
     margin: 0;
 
@@ -230,4 +230,74 @@ input {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 100px;
+}
+
+/* ------------------------------------------------------- BLURRYFACE ------------------------------------------------------- */
+/* Main */
+.b {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+/* Atricle */
+.blurry {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 0;
+}
+
+/* Cover */
+.bcover {
+    height: auto;
+    width: 450px;
+    margin-top: 75px;
+    border-radius: 5px;
+}
+
+.btitle{
+    color: #ee6253;
+    text-align: center;
+}
+
+.bsubtitle {
+    color: white;
+    margin-top: 0;
+}
+
+/* Article explicación */
+.blurryexp {
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.cuerpo {
+    font-size: larger;
+    gap: 20px;
+}
+
+.liblurry {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+/* Bold */
+.bb {
+    color: #ee6253;
+}
+
+/* Imagen */
+.pintura {
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
