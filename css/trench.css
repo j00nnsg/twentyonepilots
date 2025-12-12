@@ -234,6 +234,8 @@ li {
 }
 
 .video {
+    display: flex; /* ¡Esto faltaba! */
     justify-content: center;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
