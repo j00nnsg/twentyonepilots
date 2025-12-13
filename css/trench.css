@@ -186,6 +186,7 @@ input {
     border-radius: 10px;
     box-sizing: border-box;  /* Asegura que el padding no aumente el ancho total */
 
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
