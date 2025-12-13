@@ -2,11 +2,13 @@ html {
     overflow-y: scroll;
 }
 
+
+
 body {
     margin: 0;
 
-    font-family: lato;
-    font-weight: bold;
+    font-family: lato, sans-serif;
+    font-weight: normal;
 
     display: flex;
     flex-direction: column;
@@ -34,6 +36,7 @@ header {
 
 /* Submenú */
 nav {
+    font-weight: bold;
     display: flex;
     background-color: #b9b112;
     height: 30px;
@@ -79,6 +82,7 @@ footer {
 }
 
 form {
+    font-weight: bold;
     margin-top: 0;
     background-color: rgb(46, 46, 46);
     color: white;
@@ -119,6 +123,7 @@ input {
 
 /* Boton spoty */
 .spoty {
+    font-weight: bold;
     background-color: #1ED760;
     text-decoration: none;
     color: black;
@@ -162,6 +167,26 @@ input {
 .appleimg {
     height: 25px;
     margin-right: 10px;
+}
+
+.dmaorg {
+    background-color: #ebdf17;
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;     /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal del contenido */
+
+    /* Medidas */
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+
+    border-radius: 10px;
+    box-sizing: border-box;  /* Asegura que el padding no aumente el ancho total */
+
+    margin-bottom: 50px;
 }
 
 /* -------------------------------------- Trench -------------------------------------- */

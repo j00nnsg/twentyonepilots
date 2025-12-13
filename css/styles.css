@@ -7,7 +7,7 @@ body {
     margin: 0;
 
     font-family: lato;
-    font-weight: bold;
+    font-weight: normal;
 
     display: flex;
     flex-direction: column;
@@ -35,6 +35,7 @@ header {
 
 /* Submenú */
 nav {
+    font-weight: bold;
     display: flex;
     background-color: rgb(194, 45, 45);
     height: 30px;
@@ -139,6 +140,7 @@ li {
 }
 
 .spoty {
+    font-weight: bold;
     background-color: #1ED760;
     text-decoration: none;
     color: black;
@@ -210,6 +212,7 @@ footer {
 }
 
 form {
+    font-weight: bold;
     margin-top: 0;
     background-color: rgb(46, 46, 46);
     color: white;
