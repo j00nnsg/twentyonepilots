@@ -21,6 +21,7 @@ header {
     height: 100px;
     align-items: center;
     text-decoration: double;
+    color: #1d1d1d;
 }
 
 .logo {
@@ -168,9 +169,9 @@ input {
 }
 
 .boton {
-    background-color: #ebdf17;
+    background-color: #ee88af;
     text-decoration: none;
-    color: black;
+    color: #272727;
 
     display: flex;
     align-items: center;

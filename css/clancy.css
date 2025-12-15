@@ -17,10 +17,11 @@ body {
 /* Menú */
 header {
     display: flex;
-    background-color: #ebdf17;
+    background-color: #e6413b;
     height: 100px;
     align-items: center;
     text-decoration: double;
+
     color: #1d1d1d;
 }
 
@@ -37,7 +38,7 @@ header {
 nav {
     font-weight: bold;
     display: flex;
-    background-color: #b9b112;
+    background-color: #b4332f;
     height: 30px;
     align-items: center;
 }
@@ -50,7 +51,7 @@ nav {
 }
 
 .album:hover {
-    color: rgb(194, 45, 45);
+    color: #ffe700;
     padding-left: 25px;
     text-decoration: none;
 }
@@ -104,7 +105,7 @@ input {
 }
 
 .botonform {
-    background-color: #ebdf17;
+    background-color: #e6413b;
     color: black;
     text-align: center;
     padding-top: 10px;
@@ -168,14 +169,14 @@ input {
     margin-right: 10px;
 }
 
-.dmaorg {
-    background-color: #ebdf17;
+.boton {
+    background-color: #ee88af;
     text-decoration: none;
-    color: black;
+    color: #272727;
 
     display: flex;
-    align-items: center;     /* Centrado vertical */
-    justify-content: center; /* Centrado horizontal del contenido */
+    align-items: center;
+    justify-content: center;
 
     /* Medidas */
     width: 200px;
@@ -183,7 +184,7 @@ input {
     padding: 5px;
 
     border-radius: 10px;
-    box-sizing: border-box;  /* Asegura que el padding no aumente el ancho total */
+    box-sizing: border-box;
 
     margin-top: 30px;
     margin-bottom: 50px;
@@ -194,8 +195,8 @@ input {
 main {
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: #da7673;
+    color: #272727;
 }
 
 .album-header {
@@ -215,7 +216,7 @@ main {
 }
 
 .ttitle{
-    color: #ebdf17;
+    color: #ffe700;
     text-align: center;
 }
 
@@ -246,12 +247,12 @@ li {
     margin-left: 35px;
 }
 
-.bt {
-    color: #ebdf17;
+.bc {
+    color: #ffe814;
 }
 
 .imgexp {
-    display: block;      /* Hace que la imagen se comporte como un bloque */
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -260,7 +261,7 @@ li {
 }
 
 .video {
-    display: flex; /* ¡Esto faltaba! */
+    display: flex;
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 50px;
