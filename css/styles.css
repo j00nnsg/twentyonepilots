@@ -288,6 +288,22 @@ input {
 
 /* ------------------------------------------------------- BLURRYFACE ------------------------------------------------------- */
 /* Main */
+.blurrymenu {
+    display: flex;
+    background-color: #ee6253;
+    height: 100px;
+    align-items: center;
+    text-decoration: double;
+}
+
+.blurrynav {
+    font-weight: bold;
+    display: flex;
+    background-color: #b64b40;
+    height: 30px;
+    align-items: center;
+}
+
 .b {
     display: flex;
     flex-direction: column;
