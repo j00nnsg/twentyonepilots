@@ -233,6 +233,7 @@ main {
 .cuerpo {
     font-size: larger;
     gap: 20px;
+    word-spacing: 2px;
 }
 
 p {
