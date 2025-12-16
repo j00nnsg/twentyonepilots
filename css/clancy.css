@@ -170,9 +170,9 @@ input {
 }
 
 .boton {
-    background-color: #ee88af;
+    background-color: #272727;
     text-decoration: none;
-    color: #272727;
+    color: #e6413b;
 
     display: flex;
     align-items: center;

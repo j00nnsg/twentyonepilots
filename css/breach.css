@@ -1,0 +1,268 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+
+    font-family: lato, sans-serif;
+    font-weight: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+/* Menú */
+header {
+    display: flex;
+    background-color: #e6413b;
+    height: 100px;
+    align-items: center;
+    text-decoration: double;
+
+    color: #1d1d1d;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 25px;
+}
+
+.title {
+    padding-left: 25px;
+}
+
+/* Submenú */
+nav {
+    font-weight: bold;
+    display: flex;
+    background-color: #b4332f;
+    height: 30px;
+    align-items: center;
+}
+
+.album {
+    color: black;
+    padding-left: 25px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.album:hover {
+    color: #ffe700;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 0px;
+    background-color: rgb(46, 46, 46);
+    
+    height: auto; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sugerencias {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px; /* Espacio entre el título y el formulario */
+}
+
+form {
+    font-weight: bold;
+    margin-top: 0;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-align: start;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.inputgrande {
+    width: 500px;
+    height: 100px;
+
+    border-radius: 5px;
+    border-style: none;
+}
+
+.botonform {
+    background-color: #e6413b;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Permite que bajen si la pantalla es muy muy estrecha */
+}
+
+/* Boton spoty */
+.spoty {
+    font-weight: bold;
+    background-color: #1ED760;
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;     /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal del contenido */
+
+    /* Medidas */
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+
+    border-radius: 10px;
+    box-sizing: border-box;  /* Asegura que el padding no aumente el ancho total */
+}
+
+.spotyimg {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.apple {
+    background-color: #FA2D48;
+    text-decoration: none;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Medidas */
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.appleimg {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.boton {
+    background-color: #272727;
+    text-decoration: none;
+    color: #e6413b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Medidas */
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* -------------------------------------- Trench -------------------------------------- */
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.album-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.tcover {
+    height: auto;
+    width: 450px;
+    margin-top: 75px;
+    border-radius: 10px;
+}
+
+.ttitle{
+    color: #e6413b;
+    text-align: center;
+}
+
+.tsubtitle {
+    color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+.exp {
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.cuerpo {
+    font-size: larger;
+    gap: 20px;
+    word-spacing: 2px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+li {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.bb {
+    color: #e6413b;
+}
+
+.imgexp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 750px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
