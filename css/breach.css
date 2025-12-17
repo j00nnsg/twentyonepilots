@@ -190,7 +190,7 @@ input {
     margin-bottom: 50px;
 }
 
-/* -------------------------------------- Trench -------------------------------------- */
+/* -------------------------------------- Breach -------------------------------------- */
 
 main {
     display: flex;
@@ -282,6 +282,8 @@ li {
 table {
     margin-top: 20px;
     margin-bottom: 50px;
+    width: 100%;              /* Esto fuerza a la tabla a ocupar todo el ancho del contenedor */
+    text-align: center;
 }
 
 table , td, th {
@@ -302,13 +304,10 @@ th {
 .encabezado {
     text-decoration: double;
     color: #000000;
-    background-color: #ee6253;
+    background-color: #e6413b;
     text-align: center;
 }
 
-.encabezado {
-    text-decoration: double;
-    color: #000000;
-    background-color: #ee6253;
-    text-align: center;
+.letra {
+    text-align: left;
 }
